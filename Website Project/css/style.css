@@ -4,7 +4,14 @@
     font-family: "Helvetica";
     color: mediumseagreen;
 }
-
+.head1 {
+    text-align: center;
+    background-color: white;
+    font-family: "Helvetica";
+    color: mediumseagreen;
+    margin-top: 5%;
+    font-weight: bold;
+}
 .top-bar {
     background-color: mediumaquamarine;
 }
@@ -23,7 +30,14 @@
     text-align: center;
     font-size: 18px;
 }
-
+.text1 {
+    margin-left: 5%;
+    color: darkgreen;
+    font-family: helvetica;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
  .col-sm-3 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 25%;
@@ -32,3 +46,8 @@
         margin-bottom:.5%;
         margin-top:.5%;
         padding-right:5%
+}
+
+.size{
+    font-size: 20px;
+}

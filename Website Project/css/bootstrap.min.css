@@ -994,7 +994,10 @@ pre code {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
-        max-width: 25%
+        max-width: 25%;
+        margin-bottom:.5%;
+        margin-top:.5%;
+        padding-left: 8%
             
     }
 
@@ -1930,23 +1933,24 @@ pre code {
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
-    background-color: transparent
+    background-color: transparent;
+    margin-bottom:5%;
 }
 
 .table td,
 .table th {
     padding: .75rem;
     vertical-align: top;
-    border-top: 1px solid #dee2e6
+    border-top: 1px solid mediumaquamarine
 }
 
 .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6
+    border-bottom: 2px solid mediumaquamarine
 }
 
 .table tbody + tbody {
-    border-top: 2px solid #dee2e6
+    border-top: 2px solid mediumaquamarine
 }
 
 .table .table {
